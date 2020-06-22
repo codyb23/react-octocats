@@ -6,8 +6,9 @@ import CatsArticles from './CatsArticle.json'
 
 class App extends Component {
   render() {
-    const catsArticlesFromData = CatsArticles.map(cat => (
+    const catsFromData = CatsArticles.map(cat => (
       <Cats
+        key={cat.id}
         octiCatLink={cat.octiCatLink}
         octiCatImage={cat.octiCatImage}
         octiCatNumber={cat.octiCatNumber}
@@ -22,7 +23,7 @@ class App extends Component {
       <body>
         <Header />
         <main>
-          <section class="cards">{catsArticlesFromData}</section>
+          <section class="cards">{catsFromData}</section>
         </main>
         <footer>
           <div>
