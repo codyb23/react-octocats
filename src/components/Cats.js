@@ -1,38 +1,32 @@
 import React, { Component } from 'react'
 
-class Cats extends Component {
+export default class Cats extends Component {
   render() {
     return (
       <article className="card">
-        <a
-          className="content-image"
-          href="https://octodex.github.com//terracottocat/"
-        >
-          {this.props.mainImgLink}
+        <a className="content-image" href={this.props.octiCatLink}>
           <img
-            src="https://octodex.github.com//images/Terracottocat_Single.png"
+            src={this.props.octiCatImage}
             width="400"
             height="400"
-            alt="Terracottocat"
-          >
-            {this.props.mainImg}{' '}
-          </img>
+            alt={this.props.octiCatName}
+          />
         </a>
         <div className="card-info">
           <ul>
             <li>
-              #149:
-              <a href="https://octodex.github.com//terracottocat/">
-                <strong>Terracottocat</strong>
+              #{this.props.octiCatNumber}:
+              <a href={this.props.octiCatLink}>
+                <strong>{this.props.octiCatName}</strong>
               </a>
             </li>
             <li>
-              <a href="https://github.com/chubbmo">
+              <a href={this.props.authorLink}>
                 <img
-                  src="https://github.com/chubbmo.png"
+                  src={this.props.authorImage}
                   width="24px"
                   height="24px"
-                  alt="chubbmo"
+                  alt={this.props.authorName}
                 />
               </a>
             </li>
