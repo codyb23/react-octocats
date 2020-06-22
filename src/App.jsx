@@ -2,25 +2,27 @@ import React, { Component } from 'react'
 import HelloWorld from './components/HelloWorld'
 import Header from './components/Header'
 import Cats from './components/Cats'
+import CatsArticles from './CatsArticle.json'
 
 class App extends Component {
   render() {
+    const catsArticlesFromData = CatsArticles.map(article => (
+      <Cats
+        octiCatLink={article.octiCatLink}
+        octiCatImage={article.octiCatImage}
+        octiCatNumber={article.octiCatNumber}
+        octiCatName={article.octiCatName}
+        octiCatLink={article.octiCatLink}
+        authorLink={article.authorLink}
+        authorImage={article.authorImage}
+        authorName={article.authorName}
+      />
+    ))
     return (
       <body>
         <Header />
         <main>
-          <section class="cards">
-            <Cats
-              octiCatLink="https://octodex.github.com//terracottocat/"
-              octiCatImage="https://octodex.github.com//images/Terracottocat_Single.png"
-              octiCatNumber="149"
-              octiCatName="Terracottocat"
-              octiCatLink="https://octodex.github.com//terracottocat/"
-              authorLink="https://github.com/chubbmo"
-              authorImage="https://github.com/chubbmo.png"
-              authorName="chubbmo"
-            />
-          </section>
+          <section class="cards">{catsArticlesFromData}</section>
         </main>
         <footer>
           <div>
