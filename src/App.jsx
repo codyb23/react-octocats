@@ -6,16 +6,16 @@ import CatsArticles from './CatsArticle.json'
 
 class App extends Component {
   render() {
-    const catsArticlesFromData = CatsArticles.map(article => (
+    const catsArticlesFromData = CatsArticles.map(cat => (
       <Cats
-        octiCatLink={article.octiCatLink}
-        octiCatImage={article.octiCatImage}
-        octiCatNumber={article.octiCatNumber}
-        octiCatName={article.octiCatName}
-        octiCatLink={article.octiCatLink}
-        authorLink={article.authorLink}
-        authorImage={article.authorImage}
-        authorName={article.authorName}
+        octiCatLink={cat.octiCatLink}
+        octiCatImage={cat.octiCatImage}
+        octiCatNumber={cat.octiCatNumber}
+        octiCatName={cat.octiCatName}
+        octiCatLink={cat.octiCatLink}
+        authorLink={cat.authorLink}
+        authorImage={cat.authorImage}
+        authorName={cat.authorName}
       />
     ))
     return (
