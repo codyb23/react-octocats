@@ -29,6 +29,14 @@ export default class Cats extends Component {
                   alt={this.props.authorName}
                 />
               </a>
+              <a href={this.props.authorLink2}>
+                <img
+                  src={this.props.authorImage2}
+                  width={this.props.authorImageWidth2}
+                  height={this.props.authorImageHeight2}
+                  alt={this.props.authorName2}
+                />
+              </a>
             </li>
           </ul>
         </div>

@@ -15,6 +15,11 @@ class App extends Component {
         authorLink={cat.authorLink}
         authorImage={cat.authorImage}
         authorName={cat.authorName}
+        authorLink2={cat.authorLink2}
+        authorImage2={cat.authorImage2}
+        authorName2={cat.authorName2}
+        authorImageWidth2={cat.authorImageWidth2}
+        authorImageHeight2={cat.authorImageHeight2}
       />
     ))
     return (

@@ -51,72 +51,27 @@
   },
   {
     "id": 6,
-    "octiCatLink": ,
-    "octiCatImage": ,
-    "octiCatNumber": ,
-    "octiCatName": ,
-    "authorLink": ,
-    "authorImage": ,
-    "authorName": 
+    "octiCatLink": "https://octodex.github.com//scubatocat/",
+    "octiCatImage": "https://octodex.github.com//images/scubatocat.png",
+    "octiCatNumber": "138",
+    "octiCatName": "Scubatocat",
+    "authorLink": "https://github.com/cameronfoxly",
+    "authorImage": "https://github.com/cameronfoxly.png",
+    "authorName": "cameronfoxly"
   },
   {
     "id": 7,
-    "octiCatLink": ,
-    "octiCatImage": ,
-    "octiCatNumber": ,
-    "octiCatName": ,
-    "authorLink": ,
-    "authorImage": ,
-    "authorName": 
-  },
-  {
-    "id": 8,
-    "octiCatLink": ,
-    "octiCatImage": ,
-    "octiCatNumber": ,
-    "octiCatName": ,
-    "authorLink": ,
-    "authorImage": ,
-    "authorName": 
-  },
-  {
-    "id": 9,
-    "octiCatLink": ,
-    "octiCatImage": ,
-    "octiCatNumber": ,
-    "octiCatName": ,
-    "authorLink": ,
-    "authorImage": ,
-    "authorName": 
-  },
-  {
-    "id": 10,
-    "octiCatLink": ,
-    "octiCatImage": ,
-    "octiCatNumber": ,
-    "octiCatName": ,
-    "authorLink": ,
-    "authorImage": ,
-    "authorName": 
-  },
-  {
-    "id": 11,
-    "octiCatLink": ,
-    "octiCatImage": ,
-    "octiCatNumber": ,
-    "octiCatName": ,
-    "authorLink": ,
-    "authorImage": ,
-    "authorName": 
-  },
-  {
-    "id": 12,
-    "octiCatLink": ,
-    "octiCatImage": ,
-    "octiCatNumber": ,
-    "octiCatName": ,
-    "authorLink": ,
-    "authorImage": ,
-    "authorName": 
+    "octiCatLink": "https://octodex.github.com//dinotocat/",
+    "octiCatImage": "https://octodex.github.com//images/dinotocat.png",
+    "octiCatNumber": "130",
+    "octiCatName": "Dinotocat",
+    "authorLink": "https://github.com/kimestoesta",
+    "authorImage": "https://github.com/kimestoesta.png",
+    "authorName": "kimestoesta",
+    "authorLink2": "https://github.com/heyhayhay",
+    "authorImage2": "https://github.com/heyhayhay.png",
+    "authorName2": "heyhayhay",
+    "authorImageHeight2": "24px",
+    "authorImageWidth2": "24px"
   }
 ]
