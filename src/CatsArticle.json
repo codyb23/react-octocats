@@ -85,43 +85,43 @@
     "authorName": "jeejkang"
   },
   {
-    "id": 8,
-    "octiCatLink": ,
-    "octiCatImage": ,
-    "octiCatNumber": ,
-    "octiCatName": ,
-    "authorLink": ,
-    "authorImage": ,
-    "authorName": 
+    "id": 9,
+    "octiCatLink": "https://octodex.github.com//megacat-2/",
+    "octiCatImage": "https://octodex.github.com//images/megacat-2.png",
+    "octiCatNumber": "87",
+    "octiCatName": "Megacatv2",
+    "authorLink": "https://github.com/jeejkang",
+    "authorImage": "https://github.com/jeejkang.png",
+    "authorName": "jeejkang"
   },
   {
-    "id": 8,
-    "octiCatLink": ,
-    "octiCatImage": ,
-    "octiCatNumber": ,
-    "octiCatName": ,
-    "authorLink": ,
-    "authorImage": ,
-    "authorName": 
+    "id": 10,
+    "octiCatLink": "https://octodex.github.com//stormtroopocat/",
+    "octiCatImage": "https://octodex.github.com//images/stormtroopocat.png",
+    "octiCatNumber": "85",
+    "octiCatName": "Stormtroopocat",
+    "authorLink": "https://github.com/jeejkang",
+    "authorImage": "https://github.com/jeejkang.png",
+    "authorName": "jeejkang"
   },
   {
-    "id": 8,
-    "octiCatLink": ,
-    "octiCatImage": ,
-    "octiCatNumber": ,
-    "octiCatName": ,
-    "authorLink": ,
-    "authorImage": ,
-    "authorName": 
+    "id": 11,
+    "octiCatLink": "https://octodex.github.com//homercat/",
+    "octiCatImage": "https://octodex.github.com//images/homercat.png",
+    "octiCatNumber": "81",
+    "octiCatName": "Homercat",
+    "authorLink": "https://github.com/nickh",
+    "authorImage": "https://github.com/nickh.png",
+    "authorName": "nickh"
   },
   {
-    "id": 8,
-    "octiCatLink": ,
-    "octiCatImage": ,
-    "octiCatNumber": ,
-    "octiCatName": ,
-    "authorLink": ,
-    "authorImage": ,
-    "authorName": 
-  },
+    "id": 12,
+    "octiCatLink": "https://octodex.github.com//heisencat/",
+    "octiCatImage": "https://octodex.github.com//images/heisencat.png",
+    "octiCatNumber": "77",
+    "octiCatName": "Heisencat",
+    "authorLink": "https://github.com/jonrohan",
+    "authorImage": "https://github.com/jonrohan.png",
+    "authorName": "nickh"
+  }
 ]
