@@ -131,6 +131,14 @@ a:hover {
   display: none;
 }
 
+.cardTitle {
+  padding-left: .2rem;
+}
+
+.authorImages2 {
+  padding-left: .1rem;
+}
+
 @media (max-width: 500px) {
   .content-image img {
     width: 100%;

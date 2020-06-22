@@ -16,7 +16,7 @@ export default class Cats extends Component {
           <ul>
             <li>
               #{this.props.octiCatNumber}:
-              <a href={this.props.octiCatLink}>
+              <a className="cardTitle" href={this.props.octiCatLink}>
                 <strong>{this.props.octiCatName}</strong>
               </a>
             </li>
@@ -29,7 +29,7 @@ export default class Cats extends Component {
                   alt={this.props.authorName}
                 />
               </a>
-              <a href={this.props.authorLink2}>
+              <a className="authorImages2" href={this.props.authorLink2}>
                 <img
                   src={this.props.authorImage2}
                   width={this.props.authorImageWidth2}
