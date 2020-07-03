@@ -2,7 +2,7 @@
 
 Upgraded static HTML & CSS page with React Components
 
-![React Octocats Demo](https://github.com/codyb23/SDG-GIFS/blob/master/PhotoGallery.gif)
+![React Octocats Demo](https://github.com/codyb23/SDG-GIFS/blob/master/Octodex%20Clone%20React.PNG)
 
 ### Requirements
 - [x] If you have done the non-React version of octodex, use your existing HTML as the `render()` method of your `App` component. Otherwise, figure out the main components of the page and implement the `render()` method of `App`
